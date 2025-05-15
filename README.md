@@ -19,12 +19,16 @@ cd salary_report
 
 2. Запустите скрипт с нужными файлами и указанием отчёта:
 
+```
 python main.py data1.csv data2.csv data3.csv --report payout
+```
 
 ## Запуск тестов
 
-Используется pytest.  Для запуска тестов выполните команду:  
+Используется pytest.  Для запуска тестов выполните команду: 
+```
 $env:PYTHONPATH="D:\Работа\ИТ\WM\salary_report"; pytest --cov=. --cov-report=term-missing
+```
 
 ## Структура проекта
 
